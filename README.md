@@ -33,7 +33,7 @@ You can install the theme using **Git Submodules** or **Hugo Modules**.
 You can bring the theme into a specific folder name (e.g., `hugo-starter-blog`).
 
 ```bash
-git submodule add https://github.com/cubicsteak/hugo.git themes/hugo-starter-blog
+git submodule add https://github.com/cubicsteak/blog-hugo.git themes/hugo-starter-blog
 ```
 
 #### Option 2: Hugo Modules (Modern approach)
@@ -45,7 +45,7 @@ If you prefer not to use submodules, you can use Hugo Modules.
 hugo mod init github.com/yourusername/my-awesome-blog
 
 # 2. Add the theme to your project
-hugo mod get github.com/cubicsteak/hugo
+hugo mod get github.com/cubicsteak/blog-hugo
 
 # 3. Tidy up the modules
 hugo mod tidy
@@ -68,7 +68,7 @@ theme = "hugo-starter-blog"
 # hugo.toml
 [module]
   [[module.imports]]
-    path = "github.com/cubicsteak/hugo"
+    path = "github.com/cubicsteak/blog-hugo"
 ```
 
 ### 5. Create Your First Post
@@ -92,6 +92,6 @@ hugo server -D
 * **Name:** Hugo Starter Blog
 * **Description:** A minimal, responsive starter blog theme.
 * **Author:** Brad ([@cubicsteak](https://github.com/cubicsteak))
-* **Homepage:** [https://github.com/cubicsteak/hugo](https://github.com/cubicsteak/hugo)
+* **Homepage:** [https://github.com/cubicsteak/blog-hugo](https://github.com/cubicsteak/blog-hugo)
 * **License:** MIT
 * **Tags:** `starter`, `blog`, `minimal`, `responsive`, `bootstrap`
